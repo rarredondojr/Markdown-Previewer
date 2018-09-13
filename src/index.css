@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color:#252526;
+}
+
+.app-header{
+  margin:auto;
+  font-family: consolas;
+  height:40px;
+  font-size:10px;
+  background-color:#000000;
+  padding-top:10px;
+  color:#fff;
+  padding-left:20px;
+  width: 100%;
+}
+#author{
+  float:right;
+  padding-right:20px;
+  padding-top:5px;
+  color:#5c5c5c;
+}
+
+
+#editor{
+  font-family: consolas;
+  background-color:#0f0f0f;
+  height: 90vh;
+  color:rgba(219, 219, 219, 0.8);
+  border:none;
+  margin-top:20px;
+}
+
+#preview{
+  padding:10px;
+  color:rgba(219, 219, 219, 0.8);
+  background-color:#1c1c1c;
+  height:90vh;
+  margin-top:20px;
+  overflow: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  #preview{
+    height:70vh;
+  }
+  #editor{
+    height:20vh;
+  }
+}
+textarea:focus, input:focus, .uneditable-input:focus {   
+    border-color: rgba(0, 0, 0, 0.8) !important;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.075) inset, 1px 1px 4px 6px rgba(0, 0, 0, 0.7) !important;
+    outline: 0 none !important;
+    border-radius:0px;
+}
+pre{
+  color:#ff9900;
+  background-color:rgba(192, 192, 192, 0.075);
+  width:50%;
+  padding:10px;
+}
+code{
+
+}
+blockquote{
+  font-style: italic;
+  color:#efefef;
+}
