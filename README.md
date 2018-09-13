@@ -1,6 +1,6 @@
 # Markdown Previewer
 
-An app that servers random quotes to the user when a button is clicked.
+An app that allows the user to enter markdown in the editor and see a preview of it.
 
 ## Getting Started
 
